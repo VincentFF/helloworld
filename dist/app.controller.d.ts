@@ -2,8 +2,5 @@ import { AppService } from './app.service';
 export declare class AppController {
     private readonly appService;
     constructor(appService: AppService);
-    getHome(): Promise<{
-        message: string;
-        visits: number;
-    }>;
+    getHello(): string;
 }
